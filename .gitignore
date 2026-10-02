@@ -1,0 +1,14 @@
+# build output
+target/
+# private signing key and packed artefacts: never publish
+*.pem
+*.crx
+*.zip
+# screenshots and local archives
+*.png
+Archived/
+# the author's local extension copy and house scripts/services (not part of the public repo)
+extensions/
+scripts/
+systemd/
+BRAVEMAG_BBX_USAGE.md
